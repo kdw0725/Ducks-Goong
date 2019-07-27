@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="user">
 	<select id="selectUserById"
-		resultType="com.ta.dsg.vo.CustomUserDetails">
+		resultType="com.ta.dsg.login.vo.CustomUserDetails">
 		<![CDATA[
 			SELECT
 				*

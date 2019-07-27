@@ -1,6 +1,6 @@
-package com.ta.dsg.vo;
+package com.ta.dsg.login.vo;
 
-import java.util.ArrayList; 
+import java.util.ArrayList;  
 import java.util.Collection;
 
 import org.springframework.security.core.GrantedAuthority;

@@ -1,6 +1,6 @@
-package com.ta.dsg.service;
+package com.ta.dsg.login.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -8,7 +8,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
-import com.ta.dsg.vo.CustomUserDetails;
+import com.ta.dsg.login.vo.CustomUserDetails;
 
 
 public class CustomAuthenticationProvider implements AuthenticationProvider {

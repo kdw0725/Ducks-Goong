@@ -1,10 +1,10 @@
-package com.ta.dsg.dao;
+package com.ta.dsg.login.dao;
 
-import org.mybatis.spring.SqlSessionTemplate;
+import org.mybatis.spring.SqlSessionTemplate; 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.ta.dsg.vo.CustomUserDetails;
+import com.ta.dsg.login.vo.CustomUserDetails;
 
 
 

@@ -1,12 +1,12 @@
-package com.ta.dsg.service;
+package com.ta.dsg.login.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import com.ta.dsg.dao.UserAuthDAO;
-import com.ta.dsg.vo.CustomUserDetails;
+import com.ta.dsg.login.dao.UserAuthDAO;
+import com.ta.dsg.login.vo.CustomUserDetails;
 
 
 public class CustomUserDetailsService implements UserDetailsService {
