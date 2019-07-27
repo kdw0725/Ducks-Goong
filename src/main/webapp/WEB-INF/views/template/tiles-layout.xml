@@ -1,0 +1,32 @@
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="defaultLayout" template="/WEB-INF/views/template/defaultTemplate.jsp" />
+
+	<!-- Main 페이지-->
+	<definition name="bootstrap.Main" extends="defaultLayout"> 
+		<put-attribute name="header"		value="/WEB-INF/views/bootstrap/index/header.jsp" />
+		<put-attribute name="body"			value="/WEB-INF/views/bootstrap/Main.jsp" />
+		<put-attribute name="footer"		value="/WEB-INF/views/bootstrap/index/footer.jsp" />
+	</definition>
+	<!-- Sale 페이지-->
+	<definition name="bootstrap.Sale" extends="defaultLayout"> 
+		<put-attribute name="header"		value="/WEB-INF/views/bootstrap/index/header.jsp" />
+		<put-attribute name="body"			value="/WEB-INF/views/bootstrap/Sale.jsp" />
+		<put-attribute name="footer"		value="/WEB-INF/views/bootstrap/index/footer.jsp" />
+	</definition>
+	<!-- About 페이지-->
+	<definition name="bootstrap.About" extends="defaultLayout"> 
+		<put-attribute name="header"		value="/WEB-INF/views/bootstrap/index/header.jsp" />
+		<put-attribute name="body"			value="/WEB-INF/views/bootstrap/About.jsp" />
+		<put-attribute name="footer"		value="/WEB-INF/views/bootstrap/index/footer.jsp" />
+	</definition>
+	<!-- Contact 페이지-->
+	<definition name="bootstrap.Contact" extends="defaultLayout"> 
+		<put-attribute name="header"		value="/WEB-INF/views/bootstrap/index/header.jsp" />
+		<put-attribute name="body"			value="/WEB-INF/views/bootstrap/Contact.jsp" />
+		<put-attribute name="footer"		value="/WEB-INF/views/bootstrap/index/footer.jsp" />
+	</definition>
+
+</tiles-definitions>
